@@ -35,11 +35,11 @@ public class movement : MonoBehaviour
         {
             pos.x -= speed * Time.deltaTime;
         }
-        if (Input.GetKey("d"))
+        if (Input.GetKey("a"))
         {
             pos.z += speed * Time.deltaTime;
         }
-        if (Input.GetKey("a"))
+        if (Input.GetKey("d"))
         {
             pos.z -= speed * Time.deltaTime;
         }
